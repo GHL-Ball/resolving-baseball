@@ -11,7 +11,7 @@ permalinks:
 menu:
   main:
     - name: Home
-      url: /resolving-baseball/
+      url: /
       weight: 1
     - name: About
       url: /about/
