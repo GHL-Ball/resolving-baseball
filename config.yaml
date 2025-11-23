@@ -12,14 +12,19 @@ menu:
   main:
     - name: About
       url: /about/
-    - name: Twitter
-      url: https://x.com/GHiLiBall
-    - name: note
-      url: https://note.com/calm_phlox375
-    - name: 分析系
-      url: /analysis/
+      weight: 1
     - name: 解説系
       url: /breakdown/
+      weight: 2
+    - name: 分析系
+      url: /analysis/
+      weight: 3
+    - name: note
+      url: https://note.com/calm_phlox375
+      weight: 4
+    - name: Twitter
+      url: https://x.com/GHiLiBall
+      weight: 5
 params:
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
   MathJaxVersion: 2.7.5
