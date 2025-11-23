@@ -1,12 +1,15 @@
 ---
-title: "分析・論考"
+title: "分析系"
 ---
 
-## 投手分析
+## pitch単位
 
-- [Stuff+モデルの概要](/analysis/test-article/)
-- [Location+の構築](/analysis/location-plus/)
+- [投手のギアチェンジについて](/analysis/test-article/gear_change/)
 
-## 打者分析
+## play単位
 
-- [xwOBAモデルの比較](/analysis/xwoba-comparison/)
+## game単位
+
+## season単位
+
+## carea単位

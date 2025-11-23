@@ -12,12 +12,12 @@ menu:
   main:
     - name: About
       url: /about/
-    - name: 基礎解説
-      url: /basics/
-    - name: 分析・論考
+    - name: 解説系
+      url: /breakdown/
+    - name: 分析系
       url: /analysis/
-    - name: GitHub
-      url: https://github.com/GHL-Ball
+    - name: note
+      url: https://note.com/calm_phlox375
     - name: Twitter
       url: https://x.com/GHiLiBall
 params:

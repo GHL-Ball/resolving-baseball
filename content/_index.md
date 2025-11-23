@@ -1,23 +1,23 @@
 ---
-  title: "Resolving Baseball"
+  title: "Resolving Baseball Blog"
 ---
   
-  ## 野球統計学・セイバーメトリクスの分析サイト
+  ## Aspiring Saberistの備忘録
   
-  **作成者**: GHL-Ball
+  **作成者**: トレバ-(^o^)丿
 
 ---
   
-  ## 目次
+## 目次
   
-  ### 基礎解説
-  - [セイバーメトリクスとは](/resolving-baseball/basics/)
+### 解説系
+- [CSAA: Baseball Prospectus](/resolving-baseball/breakdown/csaa/)
 
-### 分析・論考
-- [Stuff+モデルの概要](/resolving-baseball/analysis/test-article/)
+### 分析系
+- [投手のギアチェンジについて](/resolving-baseball/analysis/gear_change)
 
 ---
   
-  ## リンク
-  - [X(Twitter)](https://x.com/GHiLiBall)
-- [GitHub](https://github.com/GHL-Ball)
+## リンク
+- [Twitter（現: X）](https://x.com/GHiLiBall)
+- [note](https://note.com/calm_phlox375)
