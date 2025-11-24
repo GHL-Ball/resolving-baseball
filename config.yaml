@@ -1,57 +1,120 @@
-baseurl: /resolving-baseball/
+baseurl: https://ghl-ball.github.io/resolving-baseball/
 languageCode: ja
 title: Resolving Baseball
-theme: hugo-lithium
-ignoreFiles:
-  - \.Rmd$
-  - \.Rmarkdown$
-  - _cache$
-permalinks:
-  post: /:year/:month/:day/:slug/
+theme: hugo-theme-stack
+
+params:
+  mainSections:
+    - analysis
+    - breakdown
+    - memo
+  featuredImageField: image
+  rssFullContent: true
+  favicon: /favicon.ico
+
+  footer:
+    since: 2025
+    customText: Aspiring Saberistの備忘録
+
+  dateFormat:
+    published: 2006-01-02
+    lastUpdated: 2006-01-02 15:04 MST
+
+  sidebar:
+    emoji: 
+    subtitle: 野球のことが知りたくてたまらない人間です。ゆえに所謂セイバーメトリクス的価値観から逃れられない人間です。
+    avatar:
+      enabled: true
+      local: true
+      src: images/logo.png
+
+  article:
+    math: true
+    toc: true
+    readingTime: true
+    license:
+      enabled: false
+
+  comments:
+    enabled: false
+
+  widgets:
+    homepage:
+      - type: search
+      - type: archives
+        params:
+          limit: 5
+      - type: categories
+        params:
+          limit: 10
+      - type: tag-cloud
+        params:
+          limit: 10
+    page:
+      - type: toc
+
+  colorScheme:
+    toggle: true
+    default: auto
+
+  imageProcessing:
+    cover:
+      enabled: true
+    content:
+      enabled: true
+
 menu:
   main:
-    - name: Home
+    - identifier: home
+      name: Home
       url: /
       weight: 1
-    - name: About
+    - identifier: about
+      name: About
       url: /about/
       weight: 2
-    - name: 解説系
-      url: /breakdown/
-      weight: 3
-    - name: 分析系
+    - identifier: analysis
+      name: 分析系
       url: /analysis/
+      weight: 3
+    - identifier: breakdown
+      name: 解説系
+      url: /breakdown/
       weight: 4
-    - name: メモ
+    - identifier: memo
+      name: メモ
       url: /memo/
       weight: 5
-    - name: note
-      url: https://note.com/calm_phlox375
+    - identifier: archives
+      name: Archives
+      url: /archives/
       weight: 6
-    - name: Twitter
+  
+  social:
+    - identifier: twitter
+      name: Twitter
       url: https://x.com/GHiLiBall
-      weight: 7
-params:
-  MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
-  MathJaxVersion: 2.7.5
-  description: 野球の分析サイト
-  favicon: favicon.ico
-  highlightjsCDN: //cdnjs.cloudflare.com/ajax/libs
-  highlightjsLang:
-    - r
-    - yaml
-    - python
-  highlightjsTheme: github
-  highlightjsVersion: 9.12.0
-logo:
-  url: /logo.png    
-  alt: Logo
-  height: 50
-  width: 50
+      params:
+        icon: brand-x
+    - identifier: note
+      name: note
+      url: https://note.com/calm_phlox375
+      params:
+        icon: pencil
+
 markup:
-  defaultMarkdownHandler: goldmark
   goldmark:
     renderer:
       unsafe: true
+  tableOfContents:
+    endLevel: 4
+    ordered: false
+    startLevel: 2
   highlight:
-    codeFences: false
+    noClasses: false
+    codeFences: true
+    guessSyntax: true
+    lineNoStart: 1
+    lineNos: true
+    lineNumbersInTable: true
+    tabWidth: 4
