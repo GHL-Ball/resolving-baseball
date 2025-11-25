@@ -1,28 +1,26 @@
 baseurl: https://ghl-ball.github.io/resolving-baseball/
 languageCode: ja
-title: Resolving Baseball
+title: Resolving Baseball Blog
 theme: hugo-theme-stack
 
 params:
   mainSections:
     - analysis
     - breakdown
-    - memo
   featuredImageField: image
-  rssFullContent: true
-  favicon: /favicon.ico
+  rssFullContent: false
+  favicon: /statics/images/favicon.png
   
   footer:
     since: 2025
     customText: Aspiring Saberistの備忘録
     
   dateFormat:
-    published: 2006-01-02
-    lastUpdated: 2006-01-02 15:04 MST
+    published: 2006年1月2日
+    lastUpdated: 2006年1月2日 15時4分
     
   sidebar:
-    emoji: ⚾
-    subtitle: 野球のことが知りたくてたまらない人間です。ゆえに所謂セイバーメトリクス的価値観から逃れられない人間です。
+    subtitle: Aspiring Saberistの備忘録
     avatar:
       enabled: false
       
@@ -34,20 +32,26 @@ params:
       enabled: false
       
   comments:
-    enabled: false
+    enabled: true
+    provider: disqus
+    disqus:
+      shortname: "trevor-4"
     
   widgets:
     homepage:
       - type: search
       - type: archives
         params:
-          limit: 5
+          limit: 10
       - type: categories
         params:
           limit: 10
       - type: tag-cloud
         params:
           limit: 10
+      - type: recent-posts
+        params:
+          limit: 5
     page:
       - type: toc
 
@@ -71,34 +75,44 @@ menu:
       name: About
       url: /about/
       weight: 2
-    - identifier: analysis
-      name: 分析系
-      url: /analysis/
-      weight: 3
     - identifier: breakdown
       name: 解説系
       url: /breakdown/
+      weight: 3
+    - identifier: analysis
+      name: 分析系
+      url: /analysis/
       weight: 4
     - identifier: memo
       name: メモ
       url: /memo/
       weight: 5
-    - identifier: archives
-      name: Archives
-      url: /archives/
-      weight: 6
-  
+
   social:
     - identifier: twitter
       name: Twitter
       url: https://x.com/GHiLiBall
+      weight: 10
       params:
-        icon: brand-twitter  # brand-x → brand-twitter に変更
+        icon: brand-twitter 
     - identifier: note
       name: note
       url: https://note.com/calm_phlox375
+      weight: 20
       params:
-        icon: link  # pencil → link に変更
+        icon: writing-sign
+    - identifier: github
+      name: GitHub
+      url: https://github.com/ghl-ball
+      weight: 30
+      params:
+        icon: brand-github
+    - identifier: gmail
+      name: Gmail
+      url: mailto:trevormetrics@gmail.com
+      weight: 40
+      params:
+        icon: mail
         
 markup:
   goldmark:
