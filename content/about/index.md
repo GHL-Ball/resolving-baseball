@@ -1,9 +1,5 @@
 ---
 title: "About"
-menu:
-    main:
-        weight: 2
-        params:
 ---
 
 野球のことが知りたくてたまらない人間です。

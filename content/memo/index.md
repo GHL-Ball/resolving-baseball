@@ -1,10 +1,5 @@
 ---
 title: "メモ"
-menu:
-    main:
-        weight: 5
-        params:
-layout: "archives"  # または "page"
 ---
 
 note等でまとめていない粗い分析・論考を貯蔵しておきます。
