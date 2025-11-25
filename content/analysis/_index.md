@@ -1,5 +1,11 @@
 ---
 title: "分析系"
+menu:
+    main:
+        weight: 4
+        params:
+            icon: book
+layout: "archives"  # または "page"
 ---
 
 とりあえずnoteで公開している記事を追加しておきます。

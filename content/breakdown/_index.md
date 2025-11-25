@@ -1,5 +1,11 @@
 ---
 title: "解説系"
+menu:
+    main:
+        weight: 3
+        params:
+            icon: book
+layout: "archives"  # または "page"
 ---
 
 性格上、いわゆるニッチな指標が多くなると思います。
