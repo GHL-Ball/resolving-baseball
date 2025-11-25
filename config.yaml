@@ -49,9 +49,6 @@ params:
       - type: tag-cloud
         params:
           limit: 10
-      - type: recent-posts
-        params:
-          limit: 5
     page:
       - type: toc
 
@@ -100,7 +97,7 @@ menu:
       url: https://note.com/calm_phlox375
       weight: 20
       params:
-        icon: writing-sign
+        icon: edit
     - identifier: github
       name: GitHub
       url: https://github.com/ghl-ball
@@ -112,7 +109,7 @@ menu:
       url: mailto:trevormetrics@gmail.com
       weight: 40
       params:
-        icon: mail
+        icon: brand-gmail
         
 markup:
   goldmark:
