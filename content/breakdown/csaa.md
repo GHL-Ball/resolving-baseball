@@ -11,7 +11,7 @@ tags: ["CSAA", "混合モデル", "GLMM"]
 
 今回は、そのストライク獲得貢献の推定について、Baseball Prospectusの手法をなぞっていけば、少し野球に詳しくなれると思うのでやっていきます。
 
-# 貢献とは誤差
+### 貢献とは誤差
 
 野球ファンの100%がご存じであるように、“理論上は”ストライク判定率は投球座標で決まります。公認野球規則にもそのような記述があるはずです。
 
@@ -21,7 +21,7 @@ tags: ["CSAA", "混合モデル", "GLMM"]
 
 投球座標のみで説明できない誤差と一口に言っても、その誤差にもタイプがあります。ここでは大まかに2つに分けます。
 
-# 固定効果
+### 固定効果
 
 例えばイニングの表裏。
 ホームチームが守備をするイニングの表と攻撃をするイニングの裏ではストライク確率に“違い”が生じます。
@@ -30,7 +30,7 @@ tags: ["CSAA", "混合モデル", "GLMM"]
 
 普通の線形回帰の説明変数が固定効果という認識でも大丈夫です。
 
-# ランダム（変量）効果
+### ランダム（変量）効果
 
 ここからが肝です。
 
@@ -43,7 +43,7 @@ MLBでは1シーズンで100人ほどの審判が球審を担当します。こ�
 
 このタイプ分けがサンプルサイズの異なる変数が互いに絡み合う野球において重要になってきます。
 
-# ランダム効果の特性とGLMMの役割
+### ランダム効果の特性とGLMMの役割
 
 Baseball Prospectusは、誤差を各要素に分配するフェーズで一般化線形混合モデル（GLMM）を利用しています。GLMMではその名の通り、固定効果とランダム効果を組み合わせたモデルを構築できます。
 
@@ -76,7 +76,7 @@ GLMMでは、ランダム効果として扱うと、それぞれの捕手を捕�
 
 そして、投手より組む相手の範囲が広く、サンプルサイズも大きい、より信頼性の高い捕手の効果を投手の効果の推定に利用できる点も強みです。
 
-# Baseball Prospectus CSAA
+### Baseball Prospectus CSAA
 
 文章ばかりで飽きてきたと思うので、モデル例を見て実感を掴んでいただければと思います。
 
@@ -138,7 +138,7 @@ csaa_model <- glmmTMB(
 
 また後ほど触れますが、注意点として現在のBaseball ProspectusのCSAAは純粋なGLMMではないので、今回は僕が算出したものを使っています。
 
-# 評価観点
+### 評価観点
 
 二つの重要な評価観点を中心に採点していこうと思います。
 
@@ -152,7 +152,7 @@ csaa_model <- glmmTMB(
 
 ではモデルの差を見ていきましょう。
 
-# 捕手
+### 捕手
 
 まずは捕手のフレーミング貢献です。
 
@@ -166,7 +166,7 @@ csaa_model <- glmmTMB(
 
 ランダム効果を考慮しないモデル α の方が記述性は高く一貫性は低い、理論通りの傾向が確認できます。ただ固定効果のみのモデルでも十分に運用可能かなという所感ではあります。
 
-# 打者
+### 打者
 
 では打者のボール獲得貢献です。
 捕手は捕球の仕方という強力な因果があるものの、打者や投手はここら辺は議論の余地がありますね。
@@ -185,7 +185,7 @@ csaa_model <- glmmTMB(
 ただ打者に関してもそこまでの差はないかなという所感です。
 もちろん、固定効果のみのモデルなら平均への回帰はしときたいですけどね。
 
-# 投手
+### 投手
 
 では投手のストライク獲得貢献です。
 
@@ -202,7 +202,7 @@ csaa_model <- glmmTMB(
 
 そして一貫性についても理論通り、モデル β の方が向上しています。
 
-# 審判
+### 審判
 
 | 審判 | モデルα | モデルβ |
 |:-----|:------:|:------:|
@@ -213,7 +213,7 @@ csaa_model <- glmmTMB(
 
 審判に関しても同様の傾向が確認できました。
 
-# 他のフレーミング指標
+### 他のフレーミング指標
 
 今回書く予定はなかったですが、せっかくなので他のフレーミング指標についてもざっと触れておきます。
 
@@ -277,7 +277,7 @@ Bayesian Baggingを取り入れる過程の、実務的かつ理論的奮闘が�
 
 正直フレーミングに関してはここまで拘る必要性は薄いですが、この手法や目的を知っていることは、もっとベイズ味のあるBaseball Prospectusの指標を理解する上で少し役立つと思うので最後に紹介しておきました。
 
-# 参考文献
+### 参考文献
 
 - [Moving Beyond WOWY: A Mixed Approach To Measuring Catcher Framingn](https://www.baseballprospectus.com/news/article/25514/moving-beyond-wowy-a-mixed-approach-to-measuring-catcher-framing/) - Baseball Prospectus
 - [Bayesian Bagging to Generate Uncertainty Intervals: A Catcher Framing Story](https://www.baseballprospectus.com/news/article/38289/bayesian-bagging-generate-uncertainty-intervals-catcher-framing-story/) - Baseball Prospectus
@@ -287,7 +287,7 @@ Bayesian Baggingを取り入れる過程の、実務的かつ理論的奮闘が�
 - [Pitch Framing Park Factors](https://blogs.fangraphs.com/instagraphs/pitch-framing-park-factors/) - FanGraphs
 - [Who Is Responsible For A Called Strike?](https://www.sloansportsconference.com/research-papers/who-is-responsible-for-a-called-strike) - Joe Rosales, Scott Spratt
 
-# データソース
+### データソース
 
 - [MLB](https://www.mlb.com/en)
 - [Baseball Savant](https://baseballsavant.mlb.com/)
