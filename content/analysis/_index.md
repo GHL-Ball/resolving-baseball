@@ -4,7 +4,7 @@ menu:
     main:
         weight: 4
         params:
-            icon: book
+            icon: copyright
 layout: "archives"  # または "page"
 ---
 
