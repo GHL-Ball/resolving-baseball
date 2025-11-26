@@ -14,7 +14,8 @@ MLBは2026年からABSの導入が決定し、それに伴いストライクゾ�
 
 そんな感じでストライクゾーン小さくなる打者の上位下位を出してみたという話です。
 
--![誤審率推移](/resolving-baseball/images/40.png)
+-![ストライクゾーン改定01](/resolving-baseball/images/41.png)
+-![ストライクゾーン改定02](/resolving-baseball/images/42.png)
 
 Baseball SavantがPitch単位で設定しているストライクゾーンが縦に何cm小さくなるかを計算しています。
 チザムとかハーパーは極端なストライクゾーンでも有名でしょう。
