@@ -5,6 +5,12 @@ theme: hugo-theme-stack
 
 capitalizeListTitles: false
 
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
 params:
   mainSections:
     - analysis

@@ -1,7 +1,7 @@
 ---
 title: "投手のギアチェンジについて"
 date: 2024-06-07
-categories: ["pitch単位"]
+categories: ["Pitch単位"]
 tags: ["Pitching", "球速", "Run Value"]
 ---
 
