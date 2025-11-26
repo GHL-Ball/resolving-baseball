@@ -3,6 +3,8 @@ languageCode: ja
 title: Resolving Baseball Blog
 theme: hugo-theme-stack
 
+capitalizeListTitles: false
+
 params:
   mainSections:
     - analysis
