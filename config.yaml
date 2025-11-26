@@ -7,6 +7,7 @@ params:
   mainSections:
     - analysis
     - breakdown
+    - memo
   featuredImageField: image
   rssFullContent: false
   favicon: /statics/images/favicon.png
@@ -16,8 +17,8 @@ params:
     customText: トレバ-(^o^)丿
     
   dateFormat:
-    published: 2006年1月2日
-    lastUpdated: 2006年1月2日 15時4分
+    published: 2006-01-02
+    lastUpdated: 2006-01-02 15:04
     
   sidebar:
     subtitle: Aspiring Saberistの備忘録
@@ -97,20 +98,8 @@ menu:
       url: https://note.com/calm_phlox375
       weight: 20
       params:
-        icon: archives
-    - identifier: github
-      name: GitHub
-      url: https://github.com/ghl-ball
-      weight: 30
-      params:
-        icon: brand-github
-    - identifier: gmail
-      name: Gmail
-      url: mailto:trevormetrics@gmail.com
-      weight: 40
-      params:
-        icon: messages
-        
+        icon: link
+
 markup:
   goldmark:
     renderer:
