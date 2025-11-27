@@ -6,11 +6,13 @@ title: "解説系"
   
 ### 投手指標
 
+- [ピッチモデリング指標の解説](/resolving-baseball/breakdown/csaa/)
+
 ### 打者指標
 
 ### 守備指標
 
-- [CSAA: Baseball Prospectus](/resolving-baseball/breakdown/csaa/)
+- [CSAA: Baseball Prospectus](/resolving-baseball/breakdown/pitch_modeling/)
 
 ### 走塁指標
 

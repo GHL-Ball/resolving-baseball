@@ -10,6 +10,8 @@ title: "分析系"
 
 ### Play単位
 
+- [ポストシーズンの低BABIPの要因](/resolving-baseball/analysis/ps_babip/)
+
 ### Game単位
 
 ### Season単位
