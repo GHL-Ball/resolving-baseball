@@ -44,7 +44,7 @@ params:
     enabled: true
     provider: disqus
     disqus:
-      shortname: "disqus_Hq2oJYYTgw"
+      shortname: "trevor-4"
     
   widgets:
     homepage:
