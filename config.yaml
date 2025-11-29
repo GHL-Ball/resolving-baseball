@@ -2,7 +2,6 @@ baseurl: https://ghl-ball.github.io/resolving-baseball/
 languageCode: ja
 title: Resolving Baseball Blog
 theme: hugo-theme-stack
-disqusShortname: "trevor-4"
 
 capitalizeListTitles: false
 
@@ -43,9 +42,18 @@ params:
       
   comments:
     enabled: true
-    provider: disqus
-    disqus:
-      shortname: "trevor-4"
+    provider: giscus
+    giscus:
+      repo: "GHL-Ball/resolving-baseball"
+      repoId: "R_kgDOQbQpuw"
+      category: "Announcements"
+      categoryId: "DIC_kwDOQbQpu84CzMFQ"
+      mapping: "pathname"
+      reactionsEnabled: 1
+      emitMetadata: 0
+      inputPosition: "bottom"
+      theme: "preferred_color_scheme"
+      lang: "ja"
     
   widgets:
     homepage:
