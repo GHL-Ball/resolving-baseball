@@ -2,6 +2,7 @@ baseurl: https://ghl-ball.github.io/resolving-baseball/
 languageCode: ja
 title: Resolving Baseball Blog
 theme: hugo-theme-stack
+disqusShortname: "trevor-4"
 
 capitalizeListTitles: false
 
