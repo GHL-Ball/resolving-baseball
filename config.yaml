@@ -18,7 +18,7 @@ params:
     - memo
   featuredImageField: image
   rssFullContent: false
-  favicon: /statics/images/favicon.png
+  favicon: /images/favicon.png
   
   footer:
     since: 2025
