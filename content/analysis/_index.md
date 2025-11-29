@@ -16,4 +16,6 @@ title: "分析系"
 
 ### Season単位
 
+- [ホームランダービーに悪影響はあるか](/resolving-baseball/analysis/homerun-derby/)
+
 ### Career単位
