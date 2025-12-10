@@ -17,5 +17,6 @@ title: "分析系"
 ### Season単位
 
 - [ホームランダービーに悪影響はあるか](/resolving-baseball/analysis/homerun-derby/)
+- [xwOBAと何を見るか](/resolving-baseball/analysis/xwoba-what-to-see-article/)
 
 ### Career単位
