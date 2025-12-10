@@ -6,15 +6,15 @@ title: "解説系"
   
 ### 投手指標
 
-- [ピッチモデリング指標の解説](/resolving-baseball/breakdown/pitch_modeling/)
+- [ピッチモデリング指標の解説](/solving-baseball/breakdown/pitch_modeling/)
 
 ### 打者指標
 
 ### 守備指標
 
-- [CSAA: Baseball Prospectus](/resolving-baseball/breakdown/csaa/)
-- [捕手の守備指標まとめ](/resolving-baseball/breakdown/catcher-defense-metrics-summary/)
-- [捕手のDRS,rWARの再考(問題提起)](/resolving-baseball/breakdown/catcher-drs-rwar-reconsideration/)
+- [CSAA: Baseball Prospectus](/solving-baseball/breakdown/csaa/)
+- [捕手の守備指標まとめ](/solving-baseball/breakdown/catcher-defense-metrics-summary/)
+- [捕手のDRS,rWARの再考(問題提起)](/solving-baseball/breakdown/catcher-drs-rwar-reconsideration/)
 
 ### 走塁指標
 

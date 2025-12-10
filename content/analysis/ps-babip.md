@@ -25,7 +25,7 @@ tags: ["Pitching", "Batting", "BABIP", "ポストシーズン"]
 
 各イベント発生率の違いが以下です。
 
-![イベント発生率の比較](/resolving-baseball/images/67.png)
+![イベント発生率の比較](/solving-baseball/images/67.png)
 
 *※2021年以降、野手のみ*
 
@@ -60,7 +60,7 @@ tags: ["Pitching", "Batting", "BABIP", "ポストシーズン"]
 
 ただ打球種類の他に打球方向も見ていくと少し変わってきます。
 
-![打球種類・方向割合比較](/resolving-baseball/images/68.png)
+![打球種類・方向割合比較](/solving-baseball/images/68.png)
 
 上記表は4つの打球種類と3つの打球方向で打球を12に分類したものです。
 
@@ -124,13 +124,13 @@ BABIPは球場の影響も無視できません。例えば縦変化量が出に
 
 として算出したBABIP Park Factorが以下です。
 
-![BABIP Park Factor](/resolving-baseball/images/69.png)
+![BABIP Park Factor](/solving-baseball/images/69.png)
 
 球場の形状の影響もありますが、気温や湿度や気圧による変化量の抑制増進でBABIP Valueの低いFB、PUの発生しやすさに球場の環境の影響が介在することも読み取れる結果になったと思います。
 
 ではポストシーズンのホーム球場での試合数とともに見てみます。
 
-![ポストシーズン ホーム球場 試合数](/resolving-baseball/images/70.png)
+![ポストシーズン ホーム球場 試合数](/solving-baseball/images/70.png)
 
 3年加重平均PFは当該シーズンを5、前後年を4として算出したPark Factorです。単純な4年平均PFも一応並記していますが大きな違いはないです。
 
@@ -173,7 +173,7 @@ BABIPは球場の影響も無視できません。例えば縦変化量が出に
 
 まずは球種割合の変化について。
 
-![球種割合の変化](/resolving-baseball/images/71.png)
+![球種割合の変化](/solving-baseball/images/71.png)
 
 *（）内はポストシーズンでの投球割合*
 
@@ -185,7 +185,7 @@ BABIPは球場の影響も無視できません。例えば縦変化量が出に
 
 平均球速はもちろん上昇していますが、PU率という点で見たときに大きなfactorとなる投球コースを見てみます。
 
-![フォーシーム投球コース比較](/resolving-baseball/images/72.png)
+![フォーシーム投球コース比較](/solving-baseball/images/72.png)
 
 よく分からないと思いますが、細かく言うと1cmくらい高めには投げられています。
 
@@ -197,7 +197,7 @@ BABIPは球場の影響も無視できません。例えば縦変化量が出に
 
 大したことないようで**VAA**として見ると **0.2°ほど小さく**なっています。
 
-![VAAの比較](/resolving-baseball/images/73.png)
+![VAAの比較](/solving-baseball/images/73.png)
 
 GAMでVAAのみを使ったPU率予測モデルを作り、ポストシーズンに適用すると予測PU率は10.03%となり、**PU率変化の60%以上を説明**できます。打者より投手の変化の方が大きい気がしてきましたね。
 

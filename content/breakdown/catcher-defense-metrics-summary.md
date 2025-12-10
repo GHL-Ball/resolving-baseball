@@ -9,7 +9,7 @@ tags: ["捕手", "ブロッキング", "盗塁阻止", "フレーミング", "�
 
 捕手のrWARやDRSに対する疑問(文句)を書きたくて、その前説として他サイトとの相違点をまとめていたらダラダラと重い前説になってしまったので分割します。前説としては重いですが指標説明系としては特に深掘りもしていないので軽いです。
 
-次→[捕手のDRS,rWARの再考(問題提起](/resolving-baseball/breakdown/catcher-drs-rwar-reconsideration/)
+次→[捕手のDRS,rWARの再考(問題提起](/solving-baseball/breakdown/catcher-drs-rwar-reconsideration/)
 
 ---
 
@@ -23,7 +23,7 @@ tags: ["捕手", "ブロッキング", "盗塁阻止", "フレーミング", "�
 
 Baseball-Reference(以降BR)ではBaseball Info Solutions(以降BIS)提供のDefensive Runs Saved(以降DRS)の構成要素を個人ページで全て確認できます。
 
-![P.ベイリー個人ページ BR](/resolving-baseball/images/110.png)
+![P.ベイリー個人ページ BR](/solving-baseball/images/110.png)
 
 *①P.ベイリー個人ページ(https://www.baseball-reference.com/players/b/bailepa01-field.shtml)*
 
@@ -56,7 +56,7 @@ Baseball-Reference(以降BR)ではBaseball Info Solutions(以降BIS)提供のDef
 
 FanGraphs(以降FG)ではBIS提供のDRSの他にFRMというフレーミング指標を確認できます。
 
-![P.ベイリー個人ページ FG](/resolving-baseball/images/111.png)
+![P.ベイリー個人ページ FG](/solving-baseball/images/111.png)
 
 *②P.ベイリー個人ページ(https://www.fangraphs.com/players/patrick-bailey/27478/stats#fielding)*
 
@@ -70,7 +70,7 @@ DRSも確認できますが少し表記に違いがあります(RerCはrCERA=Cat
 
 Baseball SavantではMLB Advanced Media提供のStatcastデータから算出した守備指標を捕手では現在4つ確認できます。
 
-![P.ベイリー個人ページ Savant](/resolving-baseball/images/112.png)
+![P.ベイリー個人ページ Savant](/solving-baseball/images/112.png)
 
 *③P.ベイリー個人ページ(https://baseballsavant.mlb.com/savant-player/patrick-bailey-672275?stats=statcast-r-catching-mlb)*
 
@@ -100,7 +100,7 @@ Baseball SavantではMLB Advanced Media提供のStatcastデータから算出し
 
 BRではDRSをWARの守備評価部分に使っていますが、捕手に関しては注意が必要です。
 
-![P.ベイリー個人ページ WAR詳細](/resolving-baseball/images/113.png)
+![P.ベイリー個人ページ WAR詳細](/solving-baseball/images/113.png)
 
 *④P.ベイリー個人ページ(https://www.baseball-reference.com/players/b/bailepa01.shtml)*
 
@@ -120,7 +120,7 @@ FGとしてはブロッキング指標を追加する意思はあるのでsavant
 
 Baseball Prospectusはインサイドワーク面以外の考慮しうる全ての要素でWARを構成しています。
 
-![P.ベイリー個人ページ BP](/resolving-baseball/images/114.png)
+![P.ベイリー個人ページ BP](/solving-baseball/images/114.png)
 
 *P.ベイリー個人ページ(https://www.baseballprospectus.com/player/112687/patrick-bailey/)*
 
@@ -146,4 +146,4 @@ Baseball Prospectusはインサイドワーク面以外の考慮しうる全て�
 
 次はその違いを生み出すRerCについて分かる範囲でいろいろ考えます。
 
-次→[捕手のDRS,rWARの再考(問題提起](/resolving-baseball/breakdown/catcher-drs-rwar-reconsideration/)
+次→[捕手のDRS,rWARの再考(問題提起](/solving-baseball/breakdown/catcher-drs-rwar-reconsideration/)

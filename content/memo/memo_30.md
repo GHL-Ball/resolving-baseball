@@ -9,8 +9,8 @@ tags: ["Batting", "Barrel", "xwOBA"]
 
 空振りあたりにどれだけのBarrelを生み出せるかという解釈性の高い指標についてです。
 
-![Barrels / Whiffs](/resolving-baseball/images/127.png)
-![Barrels / Whiffs](/resolving-baseball/images/128.png)
+![Barrels / Whiffs](/solving-baseball/images/127.png)
+![Barrels / Whiffs](/solving-baseball/images/128.png)
 **翌シーズンのwOBAの予測力**
 
 実際に性能としては悪いとは言えないもののxwOBAには劣ります。

@@ -69,7 +69,7 @@ GBDTは、この**ブースティングの過程に先に述べた勾配降下�
 
 ▶︎フレーミング指標の解説でバギングについても少しだけ触れています
 
-- [CSAA: Baseball Prospectus](/resolving-baseball/breakdown/csaa/)
+- [CSAA: Baseball Prospectus](/solving-baseball/breakdown/csaa/)
 
 #### Decision Tree（決定木）
 
@@ -77,7 +77,7 @@ GBDTは、この**ブースティングの過程に先に述べた勾配降下�
 
 決定木は一言で言うと『**条件分岐の繰り返しで予測する**』手法です。
 
-![決定木イメージ](/resolving-baseball/images/46.png)
+![決定木イメージ](/solving-baseball/images/46.png)
 
 上記のイメージ図からも想像できるとは思いますが、**決定木は弱学習器を多数作るブースティングにかなり向いています**。
 
@@ -141,7 +141,7 @@ GBDTはブースティングの学習器として決定木を採用し、その�
 
 サブモデルは以下の4つとします。
 
-![サブモデル構造](/resolving-baseball/images/47.png)
+![サブモデル構造](/solving-baseball/images/47.png)
 
 もちろん、わざわざサブモデルに展開せず、直接得点価値を推定する手法も間違いではないですし、実際にその手法を取っている野良のセイバリストもいます。ただ現状、主要データサイトのピッチモデリング指標は全て野球をサブモデルに展開しています。
 
@@ -198,7 +198,7 @@ GBDTはブースティングの学習器として決定木を採用し、その�
 
 そして先述したようにGBDTでは特徴量重要度を算出することができます。
 
-![特徴量重要度](/resolving-baseball/images/48.png)
+![特徴量重要度](/solving-baseball/images/48.png)
 
 ただ特徴量重要度にももちろん欠点はあります。
 
@@ -342,7 +342,7 @@ LightGBM は木が対称に広がっていかず重要な枝だけ深くなっ�
 
 #### TTOPの分解
 
-![TTOPの分解](/resolving-baseball/images/49.png)
+![TTOPの分解](/solving-baseball/images/49.png)
 -[TTOPの分解](https://x.com/Pitching_Bot/status/1462466560304549891)
 
 **Pitching Bot 開発者の Cameron Grove によるTTOP（周回効果）の分解**は有名かと思います。
@@ -351,7 +351,7 @@ LightGBM は木が対称に広がっていかず重要な枝だけ深くなっ�
 
 #### PFの分解
 
-![PFの分解](/resolving-baseball/images/50.png)
+![PFの分解](/solving-baseball/images/50.png)
 -[PFの分解](https://bsky.app/profile/srbrown70.bsky.social/post/3lax6hkqx7s23)
 
 プロセス情報を活かした分析において群を抜いて精力的だと感じているのが、**PitchPro、StuffPro 開発者の Stephen Sutton-Brown（SSB）**。
@@ -426,7 +426,7 @@ SSBについてはこれはほんの一例で、ピッチモデリング指標�
 
 ▶︎ポストシーズンの低いBABIPはどこから？？
 
-- [ポストシーズンの低BABIPの要因](/resolving-baseball/analysis/ps_babip/)
+- [ポストシーズンの低BABIPの要因](/solving-baseball/analysis/ps_babip/)
 
 ---
 

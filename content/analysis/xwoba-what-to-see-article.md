@@ -19,7 +19,7 @@ xwOBAを真面目に解説するとそれだけで重くなりますので要点
 
 ただ、xwOBAの打球部分 xwOBAconも来季の wOBAconの予測力がトップクラスに高い指標です。
 
-![翌年のwOBAconとの関係](/resolving-baseball/images/74.png)
+![翌年のwOBAconとの関係](/solving-baseball/images/74.png)
 
 *翌年の wOBAconとの関係　Data : FanGraphs, Baseball Savant*
 
@@ -165,7 +165,7 @@ xwOBAは play よりも player を測ることに注視した指標ですが、�
 
 Barrelはその閾値を wOBA .950付近（表向きには打率 .500、長打率 1.500）に設定した経緯としてよりシンプルなものに拘ったというポイントがあります。
 
-![Barrelの閾値設定](/resolving-baseball/images/75.png)
+![Barrelの閾値設定](/solving-baseball/images/75.png)
 
 *http://tangotiger.com/index.php/site/comments/statcast-lab-barrels*
 
@@ -173,7 +173,7 @@ Barrelはその閾値を wOBA .950付近（表向きには打率 .500、長打�
 
 では、一応Predictive wOBAconの予測力を確認しておきましょう。
 
-![翌年のwOBAconとの関係（pwOBAcon含む）](/resolving-baseball/images/76.png)
+![翌年のwOBAconとの関係（pwOBAcon含む）](/solving-baseball/images/76.png)
 
 *翌年の wOBAconとの関係*
 
@@ -229,7 +229,7 @@ xwOBAconの相方として目指すところは 0.379以上になるでしょう
 
 Sweet Spot%もその信頼度が打球速度系に劣るという話であって打者によって高低の傾向は十分にあります。なのでそのままの数値ではなくキャリア通算との乖離、SwSp diff.を使います。
 
-![Savantの個人ページ](/resolving-baseball/images/77.png)
+![Savantの個人ページ](/solving-baseball/images/77.png)
 
 *savantの個人ページですぐに確認できます*
 

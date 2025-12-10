@@ -7,7 +7,7 @@ tags: ["捕手", "リード", "フレーミング", "WAR"]
 
 前回の説明系noteで逃げたRerCとそれを採用するrWAR,DRSについての説明＆感想系noteです。前回のRerC以外の守備指標の軽いまとめはこちら⬇
 
-前回→[捕手の守備指標まとめ](/resolving-baseball/posts/catcher-defense-metrics-summary/)
+前回→[捕手の守備指標まとめ](/solving-baseball/posts/catcher-defense-metrics-summary/)
 
 ---
 
@@ -19,7 +19,7 @@ tags: ["捕手", "リード", "フレーミング", "WAR"]
 
 まずは大本営BISの見解から。
 
-![The Fielding Bible FAQ](/resolving-baseball/images/115.png)
+![The Fielding Bible FAQ](/solving-baseball/images/115.png)
 
 *The Fielding Bible FAQより(https://www.fieldingbible.com/faq)*
 
@@ -162,7 +162,7 @@ DRSに関してはRerCが改善できれば問題ないはずですが、rWARに
 
 *各WARの違い*
 
-![各WARの関係](/resolving-baseball/images/116.png)
+![各WARの関係](/solving-baseball/images/116.png)
 
 *各WARの関係*
 
@@ -170,7 +170,7 @@ DRSに関してはRerCが改善できれば問題ないはずですが、rWARに
 
 **Rfield(rWAR)がDRP(pWAR)とFielding(fWAR)とは全く違う守備評価を下している**ことが分かります。フレーミングを評価外にしているので驚きはないです。
 
-![DRSとの関係](/resolving-baseball/images/117.png)
+![DRSとの関係](/solving-baseball/images/117.png)
 
 *DRSとの関係*
 

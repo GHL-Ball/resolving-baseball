@@ -1,6 +1,6 @@
-baseurl: https://ghl-ball.github.io/resolving-baseball/
+baseurl: https://ghl-ball.github.io/solving-baseball/
 languageCode: ja
-title: Resolving Baseball Blog
+title: Solving Baseball Blog
 theme: hugo-theme-stack
 
 capitalizeListTitles: false
@@ -18,7 +18,7 @@ params:
     - memo
   featuredImageField: image
   rssFullContent: false
-  favicon: /resolving-baseball/images/favicon.png
+  favicon: /solving-baseball/images/favicon.png
   
   footer:
     since: 2025
@@ -44,7 +44,7 @@ params:
     enabled: true
     provider: giscus
     giscus:
-      repo: "GHL-Ball/resolving-baseball"
+      repo: "GHL-Ball/solving-baseball"
       repoId: "R_kgDOQbQpuw"
       category: "Announcements"
       categoryId: "DIC_kwDOQbQpu84CzMFQ"

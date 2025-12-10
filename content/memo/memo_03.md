@@ -16,4 +16,4 @@ tags: ["審判", "フレーミング"]
 
 という状況を誤審率推移とともに確認してメモ書きとしておきます。
 
--![誤審率推移](/resolving-baseball/images/40.png)
+-![誤審率推移](/solving-baseball/images/40.png)

@@ -32,7 +32,7 @@ Intercept Pointはその名の通り、バットとボールの接点（もし�
 
 以下にTiming Deviationの分布、空振り率、得点価値との関係を示します。
 
--![Timing Deviationの分布](/resolving-baseball/images/45.png)
+-![Timing Deviationの分布](/solving-baseball/images/45.png)
 
 納得感はありつつも興味深いのは打者は得点価値（多くは打球価値から生み出される）が最大化されるタイミングではなく空振り率が最小化されるタイミングでスイングをしているという点です。
 感覚的ではあるでしょうが、打者はコンタクトを優先的に考え、チャンスがあれば普段より前方の、Bat Speedが最大化しAttack Angleが最適化されるタイミングで捉えるといった感じでしょうか。

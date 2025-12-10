@@ -15,12 +15,12 @@ tags: ["Pitching", "ピッチクロック", "ピッチモデリング"]
 
 実際に2022年から2023年の投球間隔の短縮幅とピッチモデリング指標の変化が以下です。
 
--![Pitch Tempo vs Stuff](/resolving-baseball/images/64.png)
--![Pitch Tempo vs Stuff](/resolving-baseball/images/65.png)
+-![Pitch Tempo vs Stuff](/solving-baseball/images/64.png)
+-![Pitch Tempo vs Stuff](/solving-baseball/images/65.png)
 
 とりあえず関係性はないと言えるレベルです。
 
 ちなみに、投球間隔の減少幅とILに登録された率や総日数についても特にその主張を裏付けるものとはなっていません。
 
--![Pitch Tempo vs Stuff](/resolving-baseball/images/66.png)
+-![Pitch Tempo vs Stuff](/solving-baseball/images/66.png)
 **確か[spotrac](https://www.spotrac.com/mlb)を参照したはず**

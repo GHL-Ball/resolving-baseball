@@ -44,7 +44,7 @@ tags: ["審判", "ルーキー", "Attack Zones"]
 
 誤審の多さで判定の厳しさは語れないので、**不利な誤審**(ボールゾーンをストライク判定)と**有利な誤審**(ストライクゾーンをボール判定)に分類します。
 
-![不利な誤審と有利な誤審とその差のルーキー群と非ルーキー群の比較](/resolving-baseball/images/102.png)
+![不利な誤審と有利な誤審とその差のルーキー群と非ルーキー群の比較](/solving-baseball/images/102.png)
 
 *不利な誤審と有利な誤審とその差のルーキー群と非ルーキー群の比較*
 
@@ -60,7 +60,7 @@ tags: ["審判", "ルーキー", "Attack Zones"]
 
 まず**誤審はどのようなコースで発生しているか**という話ですが、これはもちろん**ストライクゾーンの境界付近**です。
 
-![Attack Zones](/resolving-baseball/images/103.png)
+![Attack Zones](/solving-baseball/images/103.png)
 
 *Attack Zones*
 
@@ -114,7 +114,7 @@ PITCHf/xの登場でストライクゾーンを具体的に定め、具体的な
 
 Catcher FramingのStrike RateもShadowの話です(シーガーは3年連続1位)
 
-![Statcast Catcher Framing Leaderboard](/resolving-baseball/images/104.png)
+![Statcast Catcher Framing Leaderboard](/solving-baseball/images/104.png)
 
 - [Statcast Catcher Framing Leaderboard](https://baseballsavant.mlb.com/catcher_framing) - Baseball Savant
 
@@ -186,19 +186,19 @@ Catcher FramingのStrike RateもShadowの話です(シーガーは3年連続1位
 
 次にストライク判定されやすいカウントです。これは体感でも十分感じられると思いますが**3-0と0-2では同じようなコースでも圧倒的にストライク判定率が変わります**。
 
-![カウント別のストライク判定率(Shadow)](/resolving-baseball/images/105.png)
+![カウント別のストライク判定率(Shadow)](/solving-baseball/images/105.png)
 
 *カウント別のストライク判定率(Shadow)*
 
 ただこれはShadow-in,Shadow-outで差別化していないのでそれも考慮してみます。
 
-![Shadow-inでのカウント別ストライク判定率](/resolving-baseball/images/106.png)
+![Shadow-inでのカウント別ストライク判定率](/solving-baseball/images/106.png)
 
 *Shadow-inでのカウント別ストライク判定率*
 
 **Shadow-inなのでストライク判定するべきコース**ですが0-2では近年でも60%強しかストライク判定されません。3-0では90%以上ストライク判定できていることを鑑みると大きな違いです。まとめると、**近年ほど正確に判定はできているが近年においても打者有利カウントと投手有利カウントでは大きなバイアスが生じている**というところでしょうか。
 
-![Shadow-outでのカウント別ストライク判定率](/resolving-baseball/images/107.png)
+![Shadow-outでのカウント別ストライク判定率](/solving-baseball/images/107.png)
 
 *Shadow-outでのカウント別ストライク判定率*
 
@@ -206,11 +206,11 @@ Catcher FramingのStrike RateもShadowの話です(シーガーは3年連続1位
 
 これらを考慮してルーキーの期待ストライク率を算出してみます。
 
-![Shadow-inのカウントごとの見逃し数](/resolving-baseball/images/108.png)
+![Shadow-inのカウントごとの見逃し数](/solving-baseball/images/108.png)
 
 *Shadow-inのカウントごとの見逃し数*
 
-![Shadow-outのカウントごとの見逃し数](/resolving-baseball/images/109.png)
+![Shadow-outのカウントごとの見逃し数](/solving-baseball/images/109.png)
 
 *Shadow-outのカウントごとの見逃し数*
 

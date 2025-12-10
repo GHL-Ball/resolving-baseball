@@ -72,9 +72,9 @@ df_dist_summary <- df_dist %>%
 かなり簡単な考え方と計算ですが理論的にはBB%のようなコマンド力を語る際に登場しやすい指標よりもコマンド力を推定するにおいてはノイズは小さくなります。
 コマンド関係の指標との相関や2025年の上位下位20投手を以下に示します。
 
-![コマンド力推定01](/resolving-baseball/images/34.png)
-![コマンド力推定02](/resolving-baseball/images/35.png)
-![コマンド力推定03](/resolving-baseball/images/36.png)
+![コマンド力推定01](/solving-baseball/images/34.png)
+![コマンド力推定02](/solving-baseball/images/35.png)
+![コマンド力推定03](/solving-baseball/images/36.png)
 
 四分位範囲を選んだのは、真にコマンドの良い投手をなるべく過小評価したくないという考えからです。
 今回条件とした要素以外にも投手や捕手は点差や塁状況、打者の特徴によって目標座標を変えていることは想定できます。

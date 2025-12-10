@@ -9,7 +9,7 @@ tags: ["Batting", "wRC+", "Run Value", "球速"]
 
 とりあえず見てもらいたいのが以下のヒストグラム。
 
-![MLB球速分布](/resolving-baseball/images/78.png)
+![MLB球速分布](/solving-baseball/images/78.png)
 
 今シーズンのMLBの球速分布を示しています。
 
@@ -41,7 +41,7 @@ tags: ["Batting", "wRC+", "Run Value", "球速"]
 
 一応例として、今シーズンの球速帯グループの分布を示しておきます。
 
-![MLB球速分布（球速帯別）](/resolving-baseball/images/79.png)
+![MLB球速分布（球速帯別）](/solving-baseball/images/79.png)
 
 *Data : Baseball Savant*
 

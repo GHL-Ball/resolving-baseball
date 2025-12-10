@@ -31,7 +31,7 @@ MLBは2015年シーズンからStatcastシステムを全面導入し、打球�
 
 念のため、下記に2015年以降のダービー出場者の一覧を記載します。
 
-![ホームランダービー出場者一覧](/resolving-baseball/images/51.png)
+![ホームランダービー出場者一覧](/solving-baseball/images/51.png)
 
 *参考程度に前半戦のHR%とwRC+も（HR%の平均は約3%）*
 
@@ -39,7 +39,7 @@ MLBは2015年シーズンからStatcastシステムを全面導入し、打球�
 
 まずは単純に、前後半の成績をダービーに出場していなかった選手と比較してみます。（打席数がある程度揃うようにサンプリングしています）
 
-![前後半の成績比較](/resolving-baseball/images/52.png)
+![前後半の成績比較](/solving-baseball/images/52.png)
 
 *色付きは統計的有意性あり（有意水準 0.05）*
 
@@ -51,7 +51,7 @@ MLBは2015年シーズンからStatcastシステムを全面導入し、打球�
 
 では打球部分で成績を落としていたダービー出場者は具体的にどのような打球プロファイルの変化があったのでしょうか。
 
-![打球プロファイルの変化](/resolving-baseball/images/53.png)
+![打球プロファイルの変化](/solving-baseball/images/53.png)
 
 *色付きは統計的有意性あり（有意水準 0.05）*
 
@@ -85,11 +85,11 @@ MLBは2015年シーズンからStatcastシステムを全面導入し、打球�
 
 抽出した類似選手216人の前半戦成績を以下に示します。
 
-![類似選手の前半戦成績](/resolving-baseball/images/54.png)
+![類似選手の前半戦成績](/solving-baseball/images/54.png)
 
 ではこのダービー出場者に似ているダービー非出場者は後半戦に成績を落としているのでしょうか。
 
-![類似選手との成績比較](/resolving-baseball/images/55.png)
+![類似選手との成績比較](/solving-baseball/images/55.png)
 
 *色付きは統計的有意性あり（有意水準 0.05）*
 
@@ -99,7 +99,7 @@ MLBは2015年シーズンからStatcastシステムを全面導入し、打球�
 
 では、打球部分も見てみましょう。
 
-![類似選手の打球プロファイル](/resolving-baseball/images/56.png)
+![類似選手の打球プロファイル](/solving-baseball/images/56.png)
 
 *色付きは統計的有意性あり（有意水準 0.05）*
 
@@ -111,7 +111,7 @@ MLBは2015年シーズンからStatcastシステムを全面導入し、打球�
 
 ではダービー出場者と非出場者の前後半の成績変化の違いに統計的有意性はあるでしょうか？
 
-![成績変化の差の検定](/resolving-baseball/images/57.png)
+![成績変化の差の検定](/solving-baseball/images/57.png)
 
 *色付きは統計的有意性あり（有意水準 0.05）*
 
@@ -119,7 +119,7 @@ MLBは2015年シーズンからStatcastシステムを全面導入し、打球�
 
 ちなみに、箱ひげ図でPull%の変化を比較したものが以下になります。
 
-![Pull%変化の箱ひげ図](/resolving-baseball/images/58.png)
+![Pull%変化の箱ひげ図](/solving-baseball/images/58.png)
 
 *赤がダービー出場者*
 
@@ -135,7 +135,7 @@ Pull%の変化の集団間の差異が、偶然では説明しづらいという
 
 まずはPull%の推移を比較してみます。
 
-![Pull%の推移比較](/resolving-baseball/images/59.png)
+![Pull%の推移比較](/solving-baseball/images/59.png)
 
 *赤がダービー出場者*
 
@@ -167,7 +167,7 @@ PU（ポップフライ）以外のGB（ゴロ）、LD（ライナー）、FB（
 
 では、この10分類の前後半の割合変化を見てみましょう。
 
-![10分類の前後半変化](/resolving-baseball/images/60.png)
+![10分類の前後半変化](/solving-baseball/images/60.png)
 
 ダービー出場者は特にPull GB%が増加していることが分かります、とするのは微妙でしょう。そもそもの発生確率の高いPull GBは後半戦に1.05倍になっていますが、**Pull FBも1.08倍**になっています。
 
@@ -225,7 +225,7 @@ Adjusted（Adj.）3VxwOBAcon と 3VxwOBAcon を比較したものが以下です
 
 ちなみに、ここまで触れてこなかった**打球速度**の変化ですが、こちらも後半戦に統計的に有意に下がるものの、高類似度のダービー非出場者も同じように下がっています。
 
-![打球速度の前後半変化](/resolving-baseball/images/61.png)
+![打球速度の前後半変化](/solving-baseball/images/61.png)
 
 *Adj. EVの前後半の変化の比較*
 
@@ -256,7 +256,7 @@ Adjusted（Adj.）3VxwOBAcon と 3VxwOBAcon を比較したものが以下です
 
 先ほど深堀りしなかったPull%の期間推移ですが、期間を8分割するとこうなります。
 
-![Pull%の8分割推移](/resolving-baseball/images/62.png)
+![Pull%の8分割推移](/solving-baseball/images/62.png)
 
 *赤がダービー出場者*
 

@@ -17,7 +17,7 @@ Escape Velocityは簡単に説明すると、**88mphまでは打球速度で価�
 
 一応確認として、打球速度とwOBAとの関係が以下。
 
-![EV vs wOBA (2021~2023)](/resolving-baseball/images/86.png)
+![EV vs wOBA (2021~2023)](/solving-baseball/images/86.png)
 
 **88mph以下を等価で評するEscape Velocityや95mph以上の打球割合を示すHard Hit %の妥当性**が確認できるんじゃないかなと思います。
 
@@ -25,7 +25,7 @@ Escape Velocityは同じ平均打球速度でも85mph + 85mph より100mph + 70m
 
 平均打球速度とEscape Velocityで特徴のあった打者の例はこちら。
 
-![平均打球速度とEscape Velocityの比較表](/resolving-baseball/images/87.png)
+![平均打球速度とEscape Velocityの比較表](/solving-baseball/images/87.png)
 
 *2021~2023、min 200 BBE、順位は512人中、バントは除く*
 
@@ -43,17 +43,17 @@ Escape Velocityは同じ平均打球速度でも85mph + 85mph より100mph + 70m
 
 まずはMLBではすっかり負け打球扱いされているゴロです。
 
-![EV vs wOBA (2021~2023 GB)](/resolving-baseball/images/88.png)
+![EV vs wOBA (2021~2023 GB)](/solving-baseball/images/88.png)
 
 当たり前ですがそもそもの価値の低さが目立ちます。Escape Velocityの理論もなんとか当てはめられそうですが、その閾値は全打球の時より低く設定できそうです。バントやハーフスイングが含まれていて信頼区間の幅も広い低速打球を取り除いて拡大したのが以下。
 
-![EV vs wOBA (2021~2023 GB) 拡大](/resolving-baseball/images/89.png)
+![EV vs wOBA (2021~2023 GB) 拡大](/solving-baseball/images/89.png)
 
 Escapeできていると言えそうなのは81mphぐらいからでしょうか。全打球では88mphが閾値ですがゴロに限ると80mph程度かなと思います。
 
 仮に80mphを閾値に設定した場合の2021~2023のゴロのEscape Velocityトップ10とワースト10がこちら。
 
-![Escape Velocity Top 10 & Worst 10 (GB)](/resolving-baseball/images/90.png)
+![Escape Velocity Top 10 & Worst 10 (GB)](/solving-baseball/images/90.png)
 
 *2021~2023、min 100 GB、Ovr Rk.は全打球のEscape Velocityの順位を466人換算したもの*
 
@@ -65,7 +65,7 @@ Escapeできていると言えそうなのは81mphぐらいからでしょうか
 
 次はMLBではすっかり勝ち打球扱いされているフライです。
 
-![EV vs wOBA (2021~2023 FB)](/resolving-baseball/images/91.png)
+![EV vs wOBA (2021~2023 FB)](/solving-baseball/images/91.png)
 
 めちゃくちゃ気持ち悪いけど**野球を感じられる曲線**が浮かび上がりました。
 
@@ -73,11 +73,11 @@ Escapeできていると言えそうなのは81mphぐらいからでしょうか
 
 一応スプレーチャートで確認してみます。
 
-![85~90mph Fly Ball スプレーチャート](/resolving-baseball/images/92.png)
+![85~90mph Fly Ball スプレーチャート](/solving-baseball/images/92.png)
 
 *打球速度85~90mphのフライを500個無作為抽出*
 
-![65~70mph Fly Ball スプレーチャート](/resolving-baseball/images/93.png)
+![65~70mph Fly Ball スプレーチャート](/solving-baseball/images/93.png)
 
 *打球速度65~70のフライを500個無作為抽出*
 
@@ -85,7 +85,7 @@ Escapeできていると言えそうなのは81mphぐらいからでしょうか
 
 ではゴロと同じように低速打球を取り除いて拡大します。
 
-![EV vs wOBA (2021~2023 FB) 拡大](/resolving-baseball/images/94.png)
+![EV vs wOBA (2021~2023 FB) 拡大](/solving-baseball/images/94.png)
 
 *半端な数字が多くて美しくない*
 
@@ -99,7 +99,7 @@ Escapeできていると言えそうなのは81mphぐらいからでしょうか
 
 全然美しくないですが、この計算で求めたフライのEscape Velocityトップ10とワースト10は以下。
 
-![Escape Velocity Top 10 & Worst 10 (FB)](/resolving-baseball/images/95.png)
+![Escape Velocity Top 10 & Worst 10 (FB)](/solving-baseball/images/95.png)
 
 *2021~2023、min 100 FB、Ovr Rk.は全打球のEscape Velocityの順位を403人換算したもの*
 
@@ -111,13 +111,13 @@ Escapeできていると言えそうなのは81mphぐらいからでしょうか
 
 最後は打者も投手も制御しづらい最強打球ライナーです。
 
-![EV vs wOBA (2021~2023 LD)](/resolving-baseball/images/96.png)
+![EV vs wOBA (2021~2023 LD)](/solving-baseball/images/96.png)
 
 フライのように打球速度があれば高確率でホームランとなる打球角度ではないので**高速度帯ではフライのようなインパクトはない**ですが、**非力な打者でも問題なく出せる60mph程度から安定して価値の高い最強打球**です。
 
 例によって拡大すると以下。
 
-![EV vs wOBA (2021~2023 LD) 拡大](/resolving-baseball/images/97.png)
+![EV vs wOBA (2021~2023 LD) 拡大](/solving-baseball/images/97.png)
 
 切りよく50mphを閾値に設定して問題ないかなと思いますが、問題は72~102mphの範囲。フライの時のように細かい扱いをすることもできますが、woba_valueの幅も狭いので72~102mphは67mphと同じ扱いにして、102mphオーバーは72mphオーバーとして扱います。具体的には以下。
 
@@ -128,7 +128,7 @@ Escapeできていると言えそうなのは81mphぐらいからでしょうか
 
 この計算で求めたライナーのEscape Velocityのトップ10とワースト10はこちら。
 
-![Escape Velocity Top 10 & Worst 10 (LD)](/resolving-baseball/images/98.png)
+![Escape Velocity Top 10 & Worst 10 (LD)](/solving-baseball/images/98.png)
 
 *2021~2023、min 100 LD、Ovr Rk.は全打球のEscape Velocityの順位を343人換算したもの*
 
@@ -142,7 +142,7 @@ Escapeできていると言えそうなのは81mphぐらいからでしょうか
 
 ### フライボール革命との繋がり
 
-![EV vs wOBA (2021~2023) 打球分類別](/resolving-baseball/images/99.png)
+![EV vs wOBA (2021~2023) 打球分類別](/solving-baseball/images/99.png)
 
 *ゴロ(赤)、フライ(青)、ライナー(緑)の打球速度と価値の関係*
 
@@ -170,7 +170,7 @@ Escapeできていると言えそうなのは81mphぐらいからでしょうか
 
 せっかく打球分類ごとのEscape Velocityとか物好きなことやったので最後にそれをまとめてAdvanced Escape Velocityでも作ろうかなと。まあ察しの良い方ならそんなんxwOBAconじゃんって気づいてそうですが。
 
-![Advanced Escape Velocity 一覧表](/resolving-baseball/images/100.png)
+![Advanced Escape Velocity 一覧表](/solving-baseball/images/100.png)
 
 *2021~2023、min 200 BBE、トップ20と中間の20人とワースト20*
 
@@ -190,7 +190,7 @@ wOBAconとxwOBAconとの決定係数は以下。
 
 ではstandardとadvancedで差がでた選手をピックアップします。
 
-![standard vs advanced 比較表](/resolving-baseball/images/101.png)
+![standard vs advanced 比較表](/solving-baseball/images/101.png)
 
 トラウトは平均打球速度でも過小評価？されていましたけど、standardでもトラウトの打球の価値は捉え切れていません。トラウトはゴロやライナーよりフライのEscapeが得意で、かつフライ率も高いという点で**パワーツールを野球に効率的に変換している**さまがうかがえます。
 
