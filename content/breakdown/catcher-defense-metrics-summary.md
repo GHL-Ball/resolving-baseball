@@ -9,7 +9,7 @@ tags: ["捕手", "ブロッキング", "盗塁阻止", "フレーミング", "�
 
 捕手のrWARやDRSに対する疑問(文句)を書きたくて、その前説として他サイトとの相違点をまとめていたらダラダラと重い前説になってしまったので分割します。前説としては重いですが指標説明系としては特に深掘りもしていないので軽いです。
 
-次→[捕手のDRS,rWARの再考(問題提起](/resolving-baseball/posts/catcher-drs-rwar-reconsideration/)
+次→[捕手のDRS,rWARの再考(問題提起](/resolving-baseball/breakdown/catcher-drs-rwar-reconsideration/)
 
 ---
 
@@ -146,4 +146,4 @@ Baseball Prospectusはインサイドワーク面以外の考慮しうる全て�
 
 次はその違いを生み出すRerCについて分かる範囲でいろいろ考えます。
 
-次→[捕手のDRS,rWARの再考(問題提起](/resolving-baseball/posts/catcher-drs-rwar-reconsideration/)
+次→[捕手のDRS,rWARの再考(問題提起](/resolving-baseball/breakdown/catcher-drs-rwar-reconsideration/)

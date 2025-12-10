@@ -36,7 +36,7 @@ note等でまとめていない粗い分析・論考を貯蔵しておきます�
 - [身長 × パワー](/resolving-baseball/memo/memo_28/)
 - [球種ごとの打球の伸びやすさ](/resolving-baseball/memo/memo_31/)
 - [FB/LD EV](/resolving-baseball/memo/memo_32/)
-- [得点圏打率](/resolving-baseball/memo/memo_33/)
+- [得点圏打率の捉え方](/resolving-baseball/memo/memo_33/)
 
 ### Game単位
 
