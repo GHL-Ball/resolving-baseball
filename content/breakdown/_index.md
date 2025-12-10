@@ -13,6 +13,8 @@ title: "解説系"
 ### 守備指標
 
 - [CSAA: Baseball Prospectus](/resolving-baseball/breakdown/csaa/)
+- [捕手の守備指標まとめ](/resolving-baseball/breakdown/catcher-defense-metrics-summary/)
+- [捕手のDRS,rWARの再考(問題提起)](/resolving-baseball/breakdown/catcher-drs-rwar-reconsideration/)
 
 ### 走塁指標
 
