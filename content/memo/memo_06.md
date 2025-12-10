@@ -13,8 +13,8 @@ tags: ["Batting", "Pitching", "Bat Tracking", "タイミング"]
 スイング時の投球の基本的な目標は打者が標準とする打点（Intercept Point）とバットの芯からズレることです。
 そのズレをxz平面とy軸に分解します。xz平面はSavantだと選手トップページのMovementのやつです。
 
-- [Savant Movement](/resolving-baseball/images/63.png)
-***この図、やけに人気ですけど見ての通り現実の野球とは違う「平面」であることは忘れたくないですよね***
+-![Savant Movement](/resolving-baseball/images/63.png)
+**この図、やけに人気ですけど見ての通り現実の野球とは違う「平面」であることは忘れたくないですよね**
 
 y軸はいわゆる「奥行き」で、緩急、タイミングが関わってくる視点です。
 
