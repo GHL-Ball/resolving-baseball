@@ -14,6 +14,7 @@ title: "分析系"
 
 - [ポストシーズンの低BABIPの要因](/solving-baseball/analysis/ps-babip/)
 - [打球分類ごとのEscape Velocity](/solving-baseball/analysis/escape-velocity-by-batted-ball-type/)
+- [二遊間の入れ替えについて](/solving-baseball/analysis/ss-2b-switch/)
 
 ### Game単位
 

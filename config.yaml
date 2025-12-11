@@ -102,7 +102,11 @@ menu:
       name: メモ
       url: /memo/
       weight: 5
-
+    - identifier: search
+      name: 検索
+      url: /page/search/
+      weight: 6
+      
   social:
     - identifier: twitter
       name: Twitter
