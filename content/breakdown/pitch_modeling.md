@@ -29,7 +29,7 @@ Stuff+、BotCmd、PitchPro、近年よく聞くようになったこれらの指
 
 セイバーメトリクスファンは k-Nearest Neighbor algorithm（k近傍法、k-NN）は聞き馴染みがあるでしょう。
 
-現在主流のピッチモデリング指標は全て、機械学習の手法の一つ、**Gradient Boosting Decision Tree（勾配ブースティング決定木、GBDT）**を活用しています。
+現在主流のピッチモデリング指標は全て、機械学習の手法の一つ、Gradient Boosting Decision Tree（勾配ブースティング決定木、GBDT）を活用しています。
 
 ---
 
@@ -343,6 +343,7 @@ LightGBM は木が対称に広がっていかず重要な枝だけ深くなっ�
 #### TTOPの分解
 
 ![TTOPの分解](/solving-baseball/images/49.png)
+
 -[TTOPの分解](https://x.com/Pitching_Bot/status/1462466560304549891)
 
 **Pitching Bot 開発者の Cameron Grove によるTTOP（周回効果）の分解**は有名かと思います。
@@ -352,6 +353,7 @@ LightGBM は木が対称に広がっていかず重要な枝だけ深くなっ�
 #### PFの分解
 
 ![PFの分解](/solving-baseball/images/50.png)
+
 -[PFの分解](https://bsky.app/profile/srbrown70.bsky.social/post/3lax6hkqx7s23)
 
 プロセス情報を活かした分析において群を抜いて精力的だと感じているのが、**PitchPro、StuffPro 開発者の Stephen Sutton-Brown（SSB）**。
@@ -426,7 +428,7 @@ SSBについてはこれはほんの一例で、ピッチモデリング指標�
 
 ▶︎ポストシーズンの低いBABIPはどこから？？
 
-- [ポストシーズンの低BABIPの要因](/solving-baseball/analysis/ps_babip/)
+- [ポストシーズンの低BABIPの要因](/solving-baseball/analysis/ps-babip/)
 
 ---
 

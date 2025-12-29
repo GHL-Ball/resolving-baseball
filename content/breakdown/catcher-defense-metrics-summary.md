@@ -9,7 +9,7 @@ tags: ["捕手", "ブロッキング", "盗塁阻止", "フレーミング", "�
 
 捕手のrWARやDRSに対する疑問(文句)を書きたくて、その前説として他サイトとの相違点をまとめていたらダラダラと重い前説になってしまったので分割します。前説としては重いですが指標説明系としては特に深掘りもしていないので軽いです。
 
-次→[捕手のDRS,rWARの再考(問題提起](/solving-baseball/breakdown/catcher-drs-rwar-reconsideration/)
+次→[捕手のDRS,rWARの再考(問題提起)](/solving-baseball/breakdown/catcher-drs-rwar-reconsideration/)
 
 ---
 
@@ -124,7 +124,7 @@ Baseball Prospectusはインサイドワーク面以外の考慮しうる全て�
 
 *P.ベイリー個人ページ(https://www.baseballprospectus.com/player/112687/patrick-bailey/)*
 
-**FrmR(フレーミング)**、**BlkR(ブロッキング)**、**ThrR(盗塁阻止)**が捕手特有の守備評価指標ということでこの3つの合計値が**CDA(Catching defense added)**としてまとめられています。そしてCDAにその他の打球処理部分の**範囲指標RDA Runs(Range defense added - runs)**と**送球指標のBRR_ARM**を足したのが全体の守備評価指標**DRP(Deserved runs prevented)**で、このDRPがpWARの構成要素となっています。
+FrmR(フレーミング)、BlkR(ブロッキング)、ThrR(盗塁阻止)が捕手特有の守備評価指標ということでこの3つの合計値がCDA(Catching defense added)としてまとめられています。そしてCDAにその他の打球処理部分の範囲指標RDA Runs(Range defense added - runs)と送球指標のBRR_ARMを足したのが全体の守備評価指標DRP(Deserved runs prevented)で、このDRPがpWARの構成要素となっています。
 
 ---
 
@@ -146,4 +146,4 @@ Baseball Prospectusはインサイドワーク面以外の考慮しうる全て�
 
 次はその違いを生み出すRerCについて分かる範囲でいろいろ考えます。
 
-次→[捕手のDRS,rWARの再考(問題提起](/solving-baseball/breakdown/catcher-drs-rwar-reconsideration/)
+次→[捕手のDRS,rWARの再考(問題提起)](/solving-baseball/breakdown/catcher-drs-rwar-reconsideration/)

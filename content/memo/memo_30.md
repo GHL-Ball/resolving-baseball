@@ -11,7 +11,7 @@ tags: ["Batting", "Barrel", "xwOBA"]
 
 ![Barrels / Whiffs](/solving-baseball/images/127.png)
 ![Barrels / Whiffs](/solving-baseball/images/128.png)
-**翌シーズンのwOBAの予測力**
+*翌シーズンのwOBAの予測力*
 
 実際に性能としては悪いとは言えないもののxwOBAには劣ります。
 単純な指標のようでBarrelを使うということはxwOBAが既にある環境ですので簡易的な指標とは言えないでしょう。

@@ -14,12 +14,17 @@ Adjusted EVと考えは似ていますし、やっていることの分かりや
 
 ![FB/LD EV](/solving-baseball/images/120.png)
 ![FB/LD EV](/solving-baseball/images/121.png)
-**同年度のwOBAconの記述力**
+
+*同年度のwOBAconの記述力*
+
 
 ![FB/LD EV](/solving-baseball/images/122.png)
 ![FB/LD EV](/solving-baseball/images/123.png)
-**翌年度のwOBAconの予測力**
+
+*翌年度のwOBAconの予測力*
+
 
 ![FB/LD EV](/solving-baseball/images/124.png)
 ![FB/LD EV](/solving-baseball/images/125.png)
-**xwOBAcon**
+
+*xwOBAcon*

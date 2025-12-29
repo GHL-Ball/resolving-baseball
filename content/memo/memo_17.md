@@ -13,6 +13,8 @@ tags: ["Pitching", "Batting", "バットトラッキング"]
 ![a](/solving-baseball/images/154.png)
 ![a](/solving-baseball/images/155.png)
 ![a](/solving-baseball/images/156.png)
+
 *少し表記ミスはあります*
+
 
 実際のバットの通過点は取得できませんが、Bat Pathからでもこのように野球が記述できるのがセイバーメトリクスの楽しいポイントの一つです。

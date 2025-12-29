@@ -1,7 +1,7 @@
 ---
 title: "最強打者の特徴【球速編】"
 date: 2024-09-22
-categories: ["Pitch単位", "メモ"]
+categories: ["Pitch単位"]
 tags: ["Batting", "wRC+", "Run Value", "球速"]
 ---
 
@@ -56,7 +56,3 @@ tags: ["Batting", "wRC+", "Run Value", "球速"]
 豪速球に強いと良い意味で話題になりやすいけど、実際どうなん？とかね。
 
 今回はパーセンタイルで見ましたけど、絶対値で範囲を区切った見方もすればもう少し深い考察もできるでしょうし。
-
----
-
-*※ ヘッダーはBaseball Referenceから*

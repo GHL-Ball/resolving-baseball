@@ -23,4 +23,5 @@ tags: ["Pitching", "ピッチクロック", "ピッチモデリング"]
 ちなみに、投球間隔の減少幅とILに登録された率や総日数についても特にその主張を裏付けるものとはなっていません。
 
 -![Pitch Tempo vs Stuff](/solving-baseball/images/66.png)
-**確か[spotrac](https://www.spotrac.com/mlb)を参照したはず**
+
+*確か[spotrac](https://www.spotrac.com/mlb)を参照したはず*
