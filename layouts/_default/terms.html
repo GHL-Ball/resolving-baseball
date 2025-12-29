@@ -1,0 +1,24 @@
+{{ define "main" }}
+<header>
+    <h3 class="section-title">
+        {{ .Title }}
+    </h3>
+</header>
+
+<div class="article-content">
+    <ul>
+        {{- range .Data.Terms.ByCount -}}
+        <li>
+            <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
+            <span style="color: var(--card-text-color-secondary); margin-left: 0.5em;">({{ .Count }})</span>
+        </li>
+        {{- end -}}
+    </ul>
+</div>
+
+{{ partialCached "footer/footer" . }}
+{{ end }}
+
+{{ define "right-sidebar" }}
+    {{ partial "sidebar/right.html" (dict "Context" . "Scope" "homepage") }}
+{{ end }}

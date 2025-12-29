@@ -5,6 +5,8 @@ categories: ["Pitch単位", "メモ"]
 tags: ["Pitching", "Batting", "バットトラッキング", "球種"]
 ---
 
+-[投球のDeceptionを指標化する](/solving-baseball/memo/memo_19/)
+
 Deception Scoreのリーグ平均値を球種、プラトーン別にまとめます。
 
 ![a](/solving-baseball/images/138.png)
